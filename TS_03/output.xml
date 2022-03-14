@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.9.2 on win32)" generated="20220128 22:47:54.574" rpa="false" schemaversion="2">
+<suite id="s1" name="TS 03" source="C:\Users\Ayman\Desktop\AE4TS final\TS_03\TS_03.robot">
+<test id="s1-t1" name="TC_03_001">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220128 22:47:54.831" endtime="20220128 22:47:54.831"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220128 22:47:54.832" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/'.</msg>
+<status status="PASS" starttime="20220128 22:47:54.832" endtime="20220128 22:47:57.864"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:47:57.865" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220128 22:47:57.865" endtime="20220128 22:47:58.665"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="malLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:47:58.666" level="INFO">Clicking element '//*[@id="malLogin"]'.</msg>
+<status status="PASS" starttime="20220128 22:47:58.665" endtime="20220128 22:48:00.512"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="loginUserName"]</arg>
+<arg>ImTestingU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:00.515" level="INFO">Typing text 'ImTestingU' into text field '//*[@id="loginUserName"]'.</msg>
+<status status="PASS" starttime="20220128 22:48:00.514" endtime="20220128 22:48:01.591"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="login-password"]</arg>
+<arg>Te$tingP@$$</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:01.594" level="INFO">Typing text 'Te$tingP@$$' into text field '//*[@id="login-password"]'.</msg>
+<status status="PASS" starttime="20220128 22:48:01.593" endtime="20220128 22:48:02.749"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:02.751" level="INFO">Clicking element '//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input'.</msg>
+<status status="PASS" starttime="20220128 22:48:02.750" endtime="20220128 22:48:03.431"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="contentWrapper"]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:03.432" level="INFO">Clicking element '//*[@id="contentWrapper"]/div[1]/a'.</msg>
+<status status="PASS" starttime="20220128 22:48:03.431" endtime="20220128 22:48:07.737"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:07.738" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[1]/a'.</msg>
+<status status="PASS" starttime="20220128 22:48:07.738" endtime="20220128 22:48:09.486"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220128 22:48:09.488" endtime="20220128 22:48:11.904"/>
+</kw>
+<status status="PASS" starttime="20220128 22:47:54.830" endtime="20220128 22:48:11.907"/>
+</test>
+<test id="s1-t2" name="TC_03_002">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220128 22:48:11.914" endtime="20220128 22:48:11.915"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220128 22:48:11.917" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/'.</msg>
+<status status="PASS" starttime="20220128 22:48:11.916" endtime="20220128 22:48:15.334"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:15.335" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220128 22:48:15.334" endtime="20220128 22:48:16.072"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="malLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:16.075" level="INFO">Clicking element '//*[@id="malLogin"]'.</msg>
+<status status="PASS" starttime="20220128 22:48:16.074" endtime="20220128 22:48:18.014"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="loginUserName"]</arg>
+<arg>ImTestingU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:18.017" level="INFO">Typing text 'ImTestingU' into text field '//*[@id="loginUserName"]'.</msg>
+<status status="PASS" starttime="20220128 22:48:18.016" endtime="20220128 22:48:19.105"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="login-password"]</arg>
+<arg>Te$tingP@$$</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:19.108" level="INFO">Typing text 'Te$tingP@$$' into text field '//*[@id="login-password"]'.</msg>
+<status status="PASS" starttime="20220128 22:48:19.107" endtime="20220128 22:48:20.199"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:20.201" level="INFO">Clicking element '//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input'.</msg>
+<status status="PASS" starttime="20220128 22:48:20.200" endtime="20220128 22:48:20.899"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="contentWrapper"]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:20.900" level="INFO">Clicking element '//*[@id="contentWrapper"]/div[1]/a'.</msg>
+<status status="PASS" starttime="20220128 22:48:20.899" endtime="20220128 22:48:24.657"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:24.658" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[2]/a'.</msg>
+<status status="PASS" starttime="20220128 22:48:24.657" endtime="20220128 22:48:26.731"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220128 22:48:26.733" endtime="20220128 22:48:29.191"/>
+</kw>
+<status status="PASS" starttime="20220128 22:48:11.912" endtime="20220128 22:48:29.192"/>
+</test>
+<test id="s1-t3" name="TC_03_003">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220128 22:48:29.199" endtime="20220128 22:48:29.200"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220128 22:48:29.203" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/'.</msg>
+<status status="PASS" starttime="20220128 22:48:29.202" endtime="20220128 22:48:32.465"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:32.466" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220128 22:48:32.466" endtime="20220128 22:48:33.372"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="malLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:33.373" level="INFO">Clicking element '//*[@id="malLogin"]'.</msg>
+<status status="PASS" starttime="20220128 22:48:33.372" endtime="20220128 22:48:35.610"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="loginUserName"]</arg>
+<arg>ImTestingU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:35.611" level="INFO">Typing text 'ImTestingU' into text field '//*[@id="loginUserName"]'.</msg>
+<status status="PASS" starttime="20220128 22:48:35.610" endtime="20220128 22:48:36.728"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="login-password"]</arg>
+<arg>Te$tingP@$$</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:36.730" level="INFO">Typing text 'Te$tingP@$$' into text field '//*[@id="login-password"]'.</msg>
+<status status="PASS" starttime="20220128 22:48:36.729" endtime="20220128 22:48:37.841"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:37.842" level="INFO">Clicking element '//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input'.</msg>
+<status status="PASS" starttime="20220128 22:48:37.842" endtime="20220128 22:48:38.511"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="contentWrapper"]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:38.512" level="INFO">Clicking element '//*[@id="contentWrapper"]/div[1]/a'.</msg>
+<status status="PASS" starttime="20220128 22:48:38.511" endtime="20220128 22:48:43.109"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[3]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:43.112" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[3]/a'.</msg>
+<status status="PASS" starttime="20220128 22:48:43.111" endtime="20220128 22:48:45.291"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220128 22:48:45.292" endtime="20220128 22:48:47.644"/>
+</kw>
+<status status="PASS" starttime="20220128 22:48:29.197" endtime="20220128 22:48:47.646"/>
+</test>
+<test id="s1-t4" name="TC_03_004">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220128 22:48:47.653" endtime="20220128 22:48:47.653"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220128 22:48:47.656" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/'.</msg>
+<status status="PASS" starttime="20220128 22:48:47.655" endtime="20220128 22:48:49.832"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:48:49.833" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<msg timestamp="20220128 22:49:01.991" level="FAIL">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0041FDC3+2555331]
+	Ordinal0 [0x003B77F1+2127857]
+	Ordinal0 [0x002B2CD0+1060048]
+	Ordinal0 [0x002A7BE2+1014754]
+	Ordinal0 [0x002A83E8+1016808]
+	Ordinal0 [0x002A9C02+1022978]
+	Ordinal0 [0x002A3AB9+998073]
+	Ordinal0 [0x002B4040+1065024]
+	Ordinal0 [0x00306DC2+1404354]
+	Ordinal0 [0x002F7976+1341814]
+	Ordinal0 [0x002D36B6+1193654]
+	Ordinal0 [0x002D4546+1197382]
+	GetHandleVerifier [0x005B9622+1619522]
+	GetHandleVerifier [0x0066882C+2336844]
+	GetHandleVerifier [0x004B23E1+541697]
+	GetHandleVerifier [0x004B1443+537699]
+	Ordinal0 [0x003BD18E+2150798]
+	Ordinal0 [0x003C1518+2168088]
+	Ordinal0 [0x003C1660+2168416]
+	Ordinal0 [0x003CB330+2208560]
+	BaseThreadInitThunk [0x7581FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A6E+238]
+</msg>
+<status status="FAIL" starttime="20220128 22:48:49.833" endtime="20220128 22:49:01.991"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="malLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:01.993" endtime="20220128 22:49:01.993"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="loginUserName"]</arg>
+<arg>ImTestingU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:01.994" endtime="20220128 22:49:01.994"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="login-password"]</arg>
+<arg>Te$tingP@$$</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:01.995" endtime="20220128 22:49:01.995"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:01.996" endtime="20220128 22:49:01.997"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="contentWrapper"]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:01.997" endtime="20220128 22:49:01.998"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[4]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:01.999" endtime="20220128 22:49:01.999"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:02.000" endtime="20220128 22:49:02.000"/>
+</kw>
+<status status="FAIL" starttime="20220128 22:48:47.651" endtime="20220128 22:49:02.002">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0041FDC3+2555331]
+	Ordinal0 [0x003B77F1+2127857]
+	Ordinal0 [0x002B2CD0+1060048]
+	Ordinal0 [0x002A7BE2+1014754]
+	Ordinal0 [0x002A83E8+1016808]
+	Ordinal0 [0x002A9C02+1022978]
+	Ordinal0 [0x002A3AB9+998073]
+	Ordinal0 [0x002B4040+1065024]
+	Ordinal0 [0x00306DC2+1404354]
+	Ordinal0 [0x002F7976+1341814]
+	Ordinal0 [0x002D36B6+1193654]
+	Ordinal0 [0x002D4546+1197382]
+	GetHandleVerifier [0x005B9622+1619522]
+	GetHandleVerifier [0x0066882C+2336844]
+	GetHandleVerifier [0x004B23E1+541697]
+	GetHandleVerifier [0x004B1443+537699]
+	Ordinal0 [0x003BD18E+2150798]
+	Ordinal0 [0x003C1518+2168088]
+	Ordinal0 [0x003C1660+2168416]
+	Ordinal0 [0x003CB330+2208560]
+	BaseThreadInitThunk [0x7581FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A6E+238]
+</status>
+</test>
+<test id="s1-t5" name="TC_03_005">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220128 22:49:02.011" endtime="20220128 22:49:02.011"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220128 22:49:02.012" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/'.</msg>
+<status status="PASS" starttime="20220128 22:49:02.012" endtime="20220128 22:49:05.049"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:49:05.052" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220128 22:49:05.051" endtime="20220128 22:49:05.941"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="malLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:49:05.942" level="INFO">Clicking element '//*[@id="malLogin"]'.</msg>
+<msg timestamp="20220128 22:49:06.346" level="FAIL">Element with locator '//*[@id="malLogin"]' not found.</msg>
+<status status="FAIL" starttime="20220128 22:49:05.942" endtime="20220128 22:49:06.347"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="loginUserName"]</arg>
+<arg>ImTestingU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:06.347" endtime="20220128 22:49:06.347"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="login-password"]</arg>
+<arg>Te$tingP@$$</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:06.348" endtime="20220128 22:49:06.348"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:06.348" endtime="20220128 22:49:06.349"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="contentWrapper"]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:06.349" endtime="20220128 22:49:06.349"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[5]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:06.350" endtime="20220128 22:49:06.350"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:06.350" endtime="20220128 22:49:06.350"/>
+</kw>
+<status status="FAIL" starttime="20220128 22:49:02.010" endtime="20220128 22:49:06.351">Element with locator '//*[@id="malLogin"]' not found.</status>
+</test>
+<test id="s1-t6" name="TC_03_006">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220128 22:49:06.353" endtime="20220128 22:49:06.353"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220128 22:49:06.354" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/'.</msg>
+<status status="PASS" starttime="20220128 22:49:06.354" endtime="20220128 22:49:08.733"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:49:08.736" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<msg timestamp="20220128 22:49:20.769" level="FAIL">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0041FDC3+2555331]
+	Ordinal0 [0x003B77F1+2127857]
+	Ordinal0 [0x002B2CD0+1060048]
+	Ordinal0 [0x002A7BE2+1014754]
+	Ordinal0 [0x002A83E8+1016808]
+	Ordinal0 [0x002A9C02+1022978]
+	Ordinal0 [0x002A3AB9+998073]
+	Ordinal0 [0x002B4040+1065024]
+	Ordinal0 [0x00306DC2+1404354]
+	Ordinal0 [0x002F7976+1341814]
+	Ordinal0 [0x002D36B6+1193654]
+	Ordinal0 [0x002D4546+1197382]
+	GetHandleVerifier [0x005B9622+1619522]
+	GetHandleVerifier [0x0066882C+2336844]
+	GetHandleVerifier [0x004B23E1+541697]
+	GetHandleVerifier [0x004B1443+537699]
+	Ordinal0 [0x003BD18E+2150798]
+	Ordinal0 [0x003C1518+2168088]
+	Ordinal0 [0x003C1660+2168416]
+	Ordinal0 [0x003CB330+2208560]
+	BaseThreadInitThunk [0x7581FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A6E+238]
+</msg>
+<status status="FAIL" starttime="20220128 22:49:08.735" endtime="20220128 22:49:20.769"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="malLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:20.770" endtime="20220128 22:49:20.770"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="loginUserName"]</arg>
+<arg>ImTestingU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:20.771" endtime="20220128 22:49:20.771"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="login-password"]</arg>
+<arg>Te$tingP@$$</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:20.771" endtime="20220128 22:49:20.771"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:20.772" endtime="20220128 22:49:20.772"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="contentWrapper"]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:20.773" endtime="20220128 22:49:20.773"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[6]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:20.773" endtime="20220128 22:49:20.773"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:20.774" endtime="20220128 22:49:20.774"/>
+</kw>
+<status status="FAIL" starttime="20220128 22:49:06.353" endtime="20220128 22:49:20.775">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0041FDC3+2555331]
+	Ordinal0 [0x003B77F1+2127857]
+	Ordinal0 [0x002B2CD0+1060048]
+	Ordinal0 [0x002A7BE2+1014754]
+	Ordinal0 [0x002A83E8+1016808]
+	Ordinal0 [0x002A9C02+1022978]
+	Ordinal0 [0x002A3AB9+998073]
+	Ordinal0 [0x002B4040+1065024]
+	Ordinal0 [0x00306DC2+1404354]
+	Ordinal0 [0x002F7976+1341814]
+	Ordinal0 [0x002D36B6+1193654]
+	Ordinal0 [0x002D4546+1197382]
+	GetHandleVerifier [0x005B9622+1619522]
+	GetHandleVerifier [0x0066882C+2336844]
+	GetHandleVerifier [0x004B23E1+541697]
+	GetHandleVerifier [0x004B1443+537699]
+	Ordinal0 [0x003BD18E+2150798]
+	Ordinal0 [0x003C1518+2168088]
+	Ordinal0 [0x003C1660+2168416]
+	Ordinal0 [0x003CB330+2208560]
+	BaseThreadInitThunk [0x7581FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A6E+238]
+</status>
+</test>
+<test id="s1-t7" name="TC_03_007">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220128 22:49:20.782" endtime="20220128 22:49:20.782"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220128 22:49:20.783" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/'.</msg>
+<status status="PASS" starttime="20220128 22:49:20.783" endtime="20220128 22:49:24.342"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:49:24.345" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220128 22:49:24.344" endtime="20220128 22:49:25.170"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="malLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:49:25.172" level="INFO">Clicking element '//*[@id="malLogin"]'.</msg>
+<msg timestamp="20220128 22:49:25.531" level="FAIL">WebDriverException: Message: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0041FDC3+2555331]
+	Ordinal0 [0x003B77F1+2127857]
+	Ordinal0 [0x002B2E08+1060360]
+	Ordinal0 [0x002A5FC4+1007556]
+	Ordinal0 [0x002A5C03+1006595]
+	Ordinal0 [0x002A527D+1004157]
+	Ordinal0 [0x002A43FA+1000442]
+	Ordinal0 [0x002A47C7+1001415]
+	Ordinal0 [0x002AE73D+1042237]
+	Ordinal0 [0x002B884B+1083467]
+	Ordinal0 [0x002BAF60+1093472]
+	Ordinal0 [0x002A4AC6+1002182]
+	Ordinal0 [0x002B84B8+1082552]
+	Ordinal0 [0x003074F0+1406192]
+	Ordinal0 [0x002F7976+1341814]
+	Ordinal0 [0x002D36B6+1193654]
+	Ordinal0 [0x002D4546+1197382]
+	GetHandleVerifier [0x005B9622+1619522]
+	GetHandleVerifier [0x0066882C+2336844]
+	GetHandleVerifier [0x004B23E1+541697]
+	GetHandleVerifier [0x004B1443+537699]
+	Ordinal0 [0x003BD18E+2150798]
+	Ordinal0 [0x003C1518+2168088]
+	Ordinal0 [0x003C1660+2168416]
+	Ordinal0 [0x003CB330+2208560]
+	BaseThreadInitThunk [0x7581FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A6E+238]
+</msg>
+<status status="FAIL" starttime="20220128 22:49:25.171" endtime="20220128 22:49:25.532"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="loginUserName"]</arg>
+<arg>ImTestingU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:25.534" endtime="20220128 22:49:25.535"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="login-password"]</arg>
+<arg>Te$tingP@$$</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:25.536" endtime="20220128 22:49:25.536"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:25.537" endtime="20220128 22:49:25.537"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="contentWrapper"]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:25.538" endtime="20220128 22:49:25.539"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[7]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:25.540" endtime="20220128 22:49:25.540"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:25.541" endtime="20220128 22:49:25.541"/>
+</kw>
+<status status="FAIL" starttime="20220128 22:49:20.781" endtime="20220128 22:49:25.543">WebDriverException: Message: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0041FDC3+2555331]
+	Ordinal0 [0x003B77F1+2127857]
+	Ordinal0 [0x002B2E08+1060360]
+	Ordinal0 [0x002A5FC4+1007556]
+	Ordinal0 [0x002A5C03+1006595]
+	Ordinal0 [0x002A527D+1004157]
+	Ordinal0 [0x002A43FA+1000442]
+	Ordinal0 [0x002A47C7+1001415]
+	Ordinal0 [0x002AE73D+1042237]
+	Ordinal0 [0x002B884B+1083467]
+	Ordinal0 [0x002BAF60+1093472]
+	Ordinal0 [0x002A4AC6+1002182]
+	Ordinal0 [0x002B84B8+1082552]
+	Ordinal0 [0x003074F0+1406192]
+	Ordinal0 [0x002F7976+1341814]
+	Ordinal0 [0x002D36B6+1193654]
+	Ordinal0 [0x002D4546+1197382]
+	GetHandleVerifier [0x005B9622+1619522]
+	GetHandleVerifier [0x0066882C+2336844]
+	GetHandleVerifier [0x004B23E1+541697]
+	GetHandleVerifier [0x004B1443+537699]
+	Ordinal0 [0x003BD18E+2150798]
+	Ordinal0 [0x003C1518+2168088]
+	Ordinal0 [0x003C1660+2168416]
+	Ordinal0 [0x003CB330+2208560]
+	BaseThreadInitThunk [0x7581FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A6E+238]
+</status>
+</test>
+<test id="s1-t8" name="TC_03_008">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220128 22:49:25.555" endtime="20220128 22:49:25.557"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220128 22:49:25.559" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/'.</msg>
+<status status="PASS" starttime="20220128 22:49:25.558" endtime="20220128 22:49:28.137"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:49:28.140" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<msg timestamp="20220128 22:49:40.164" level="FAIL">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0041FDC3+2555331]
+	Ordinal0 [0x003B77F1+2127857]
+	Ordinal0 [0x002B2CD0+1060048]
+	Ordinal0 [0x002A7BE2+1014754]
+	Ordinal0 [0x002A83E8+1016808]
+	Ordinal0 [0x002A9C02+1022978]
+	Ordinal0 [0x002A3AB9+998073]
+	Ordinal0 [0x002B4040+1065024]
+	Ordinal0 [0x00306DC2+1404354]
+	Ordinal0 [0x002F7976+1341814]
+	Ordinal0 [0x002D36B6+1193654]
+	Ordinal0 [0x002D4546+1197382]
+	GetHandleVerifier [0x005B9622+1619522]
+	GetHandleVerifier [0x0066882C+2336844]
+	GetHandleVerifier [0x004B23E1+541697]
+	GetHandleVerifier [0x004B1443+537699]
+	Ordinal0 [0x003BD18E+2150798]
+	Ordinal0 [0x003C1518+2168088]
+	Ordinal0 [0x003C1660+2168416]
+	Ordinal0 [0x003CB330+2208560]
+	BaseThreadInitThunk [0x7581FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A6E+238]
+</msg>
+<status status="FAIL" starttime="20220128 22:49:28.139" endtime="20220128 22:49:40.165"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="malLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:40.167" endtime="20220128 22:49:40.167"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="loginUserName"]</arg>
+<arg>ImTestingU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:40.169" endtime="20220128 22:49:40.169"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="login-password"]</arg>
+<arg>Te$tingP@$$</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:40.170" endtime="20220128 22:49:40.170"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:40.172" endtime="20220128 22:49:40.172"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="contentWrapper"]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:40.173" endtime="20220128 22:49:40.174"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[9]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:40.175" endtime="20220128 22:49:40.175"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:40.177" endtime="20220128 22:49:40.177"/>
+</kw>
+<status status="FAIL" starttime="20220128 22:49:25.554" endtime="20220128 22:49:40.179">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0041FDC3+2555331]
+	Ordinal0 [0x003B77F1+2127857]
+	Ordinal0 [0x002B2CD0+1060048]
+	Ordinal0 [0x002A7BE2+1014754]
+	Ordinal0 [0x002A83E8+1016808]
+	Ordinal0 [0x002A9C02+1022978]
+	Ordinal0 [0x002A3AB9+998073]
+	Ordinal0 [0x002B4040+1065024]
+	Ordinal0 [0x00306DC2+1404354]
+	Ordinal0 [0x002F7976+1341814]
+	Ordinal0 [0x002D36B6+1193654]
+	Ordinal0 [0x002D4546+1197382]
+	GetHandleVerifier [0x005B9622+1619522]
+	GetHandleVerifier [0x0066882C+2336844]
+	GetHandleVerifier [0x004B23E1+541697]
+	GetHandleVerifier [0x004B1443+537699]
+	Ordinal0 [0x003BD18E+2150798]
+	Ordinal0 [0x003C1518+2168088]
+	Ordinal0 [0x003C1660+2168416]
+	Ordinal0 [0x003CB330+2208560]
+	BaseThreadInitThunk [0x7581FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A6E+238]
+</status>
+</test>
+<test id="s1-t9" name="TC_03_009">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220128 22:49:40.198" endtime="20220128 22:49:40.199"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220128 22:49:40.201" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/'.</msg>
+<status status="PASS" starttime="20220128 22:49:40.200" endtime="20220128 22:49:42.632"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:49:42.635" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<msg timestamp="20220128 22:49:54.657" level="FAIL">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0041FDC3+2555331]
+	Ordinal0 [0x003B77F1+2127857]
+	Ordinal0 [0x002B2CD0+1060048]
+	Ordinal0 [0x002A7BE2+1014754]
+	Ordinal0 [0x002A83E8+1016808]
+	Ordinal0 [0x002A9C02+1022978]
+	Ordinal0 [0x002A3AB9+998073]
+	Ordinal0 [0x002B4040+1065024]
+	Ordinal0 [0x00306DC2+1404354]
+	Ordinal0 [0x002F7976+1341814]
+	Ordinal0 [0x002D36B6+1193654]
+	Ordinal0 [0x002D4546+1197382]
+	GetHandleVerifier [0x005B9622+1619522]
+	GetHandleVerifier [0x0066882C+2336844]
+	GetHandleVerifier [0x004B23E1+541697]
+	GetHandleVerifier [0x004B1443+537699]
+	Ordinal0 [0x003BD18E+2150798]
+	Ordinal0 [0x003C1518+2168088]
+	Ordinal0 [0x003C1660+2168416]
+	Ordinal0 [0x003CB330+2208560]
+	BaseThreadInitThunk [0x7581FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A6E+238]
+</msg>
+<status status="FAIL" starttime="20220128 22:49:42.634" endtime="20220128 22:49:54.657"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="malLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:54.658" endtime="20220128 22:49:54.658"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="loginUserName"]</arg>
+<arg>ImTestingU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:54.658" endtime="20220128 22:49:54.658"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="login-password"]</arg>
+<arg>Te$tingP@$$</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:54.659" endtime="20220128 22:49:54.659"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:54.659" endtime="20220128 22:49:54.659"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="contentWrapper"]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:54.660" endtime="20220128 22:49:54.660"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[10]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:54.660" endtime="20220128 22:49:54.660"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220128 22:49:54.661" endtime="20220128 22:49:54.661"/>
+</kw>
+<status status="FAIL" starttime="20220128 22:49:40.195" endtime="20220128 22:49:54.662">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0041FDC3+2555331]
+	Ordinal0 [0x003B77F1+2127857]
+	Ordinal0 [0x002B2CD0+1060048]
+	Ordinal0 [0x002A7BE2+1014754]
+	Ordinal0 [0x002A83E8+1016808]
+	Ordinal0 [0x002A9C02+1022978]
+	Ordinal0 [0x002A3AB9+998073]
+	Ordinal0 [0x002B4040+1065024]
+	Ordinal0 [0x00306DC2+1404354]
+	Ordinal0 [0x002F7976+1341814]
+	Ordinal0 [0x002D36B6+1193654]
+	Ordinal0 [0x002D4546+1197382]
+	GetHandleVerifier [0x005B9622+1619522]
+	GetHandleVerifier [0x0066882C+2336844]
+	GetHandleVerifier [0x004B23E1+541697]
+	GetHandleVerifier [0x004B1443+537699]
+	Ordinal0 [0x003BD18E+2150798]
+	Ordinal0 [0x003C1518+2168088]
+	Ordinal0 [0x003C1660+2168416]
+	Ordinal0 [0x003CB330+2208560]
+	BaseThreadInitThunk [0x7581FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A6E+238]
+</status>
+</test>
+<test id="s1-t10" name="TC_03_010">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220128 22:49:54.668" endtime="20220128 22:49:54.668"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220128 22:49:54.669" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/'.</msg>
+<status status="PASS" starttime="20220128 22:49:54.669" endtime="20220128 22:49:58.034"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:49:58.036" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220128 22:49:58.035" endtime="20220128 22:49:58.844"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="malLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:49:58.845" level="INFO">Clicking element '//*[@id="malLogin"]'.</msg>
+<status status="PASS" starttime="20220128 22:49:58.844" endtime="20220128 22:50:00.998"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="loginUserName"]</arg>
+<arg>ImTestingU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:00.999" level="INFO">Typing text 'ImTestingU' into text field '//*[@id="loginUserName"]'.</msg>
+<status status="PASS" starttime="20220128 22:50:00.998" endtime="20220128 22:50:02.120"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="login-password"]</arg>
+<arg>Te$tingP@$$</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:02.121" level="INFO">Typing text 'Te$tingP@$$' into text field '//*[@id="login-password"]'.</msg>
+<status status="PASS" starttime="20220128 22:50:02.121" endtime="20220128 22:50:03.120"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:03.121" level="INFO">Clicking element '//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input'.</msg>
+<status status="PASS" starttime="20220128 22:50:03.120" endtime="20220128 22:50:03.783"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="contentWrapper"]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:03.784" level="INFO">Clicking element '//*[@id="contentWrapper"]/div[1]/a'.</msg>
+<status status="PASS" starttime="20220128 22:50:03.783" endtime="20220128 22:50:08.158"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[11]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:08.160" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[11]/a'.</msg>
+<status status="PASS" starttime="20220128 22:50:08.160" endtime="20220128 22:50:09.961"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220128 22:50:09.962" endtime="20220128 22:50:12.321"/>
+</kw>
+<status status="PASS" starttime="20220128 22:49:54.667" endtime="20220128 22:50:12.322"/>
+</test>
+<test id="s1-t11" name="TC_03_011">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220128 22:50:12.324" endtime="20220128 22:50:12.324"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220128 22:50:12.325" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/'.</msg>
+<status status="PASS" starttime="20220128 22:50:12.325" endtime="20220128 22:50:15.457"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:15.458" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220128 22:50:15.457" endtime="20220128 22:50:16.207"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="malLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:16.210" level="INFO">Clicking element '//*[@id="malLogin"]'.</msg>
+<status status="PASS" starttime="20220128 22:50:16.209" endtime="20220128 22:50:18.387"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="loginUserName"]</arg>
+<arg>ImTestingU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:18.388" level="INFO">Typing text 'ImTestingU' into text field '//*[@id="loginUserName"]'.</msg>
+<status status="PASS" starttime="20220128 22:50:18.387" endtime="20220128 22:50:19.516"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="login-password"]</arg>
+<arg>Te$tingP@$$</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:19.517" level="INFO">Typing text 'Te$tingP@$$' into text field '//*[@id="login-password"]'.</msg>
+<status status="PASS" starttime="20220128 22:50:19.516" endtime="20220128 22:50:20.663"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:20.664" level="INFO">Clicking element '//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input'.</msg>
+<status status="PASS" starttime="20220128 22:50:20.663" endtime="20220128 22:50:21.331"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="contentWrapper"]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:21.331" level="INFO">Clicking element '//*[@id="contentWrapper"]/div[1]/a'.</msg>
+<status status="PASS" starttime="20220128 22:50:21.331" endtime="20220128 22:50:25.296"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[12]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:25.296" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[12]/a'.</msg>
+<status status="PASS" starttime="20220128 22:50:25.296" endtime="20220128 22:50:28.018"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220128 22:50:28.019" endtime="20220128 22:50:30.375"/>
+</kw>
+<status status="PASS" starttime="20220128 22:50:12.323" endtime="20220128 22:50:30.377"/>
+</test>
+<test id="s1-t12" name="TC_03_012">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220128 22:50:30.384" endtime="20220128 22:50:30.385"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220128 22:50:30.387" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/'.</msg>
+<status status="PASS" starttime="20220128 22:50:30.386" endtime="20220128 22:50:33.748"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:33.749" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<msg timestamp="20220128 22:50:46.152" level="FAIL">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0041FDC3+2555331]
+	Ordinal0 [0x003B77F1+2127857]
+	Ordinal0 [0x002B2CD0+1060048]
+	Ordinal0 [0x002A7BE2+1014754]
+	Ordinal0 [0x002A83E8+1016808]
+	Ordinal0 [0x002A9C02+1022978]
+	Ordinal0 [0x002A3AB9+998073]
+	Ordinal0 [0x002B4040+1065024]
+	Ordinal0 [0x00306DC2+1404354]
+	Ordinal0 [0x002F7976+1341814]
+	Ordinal0 [0x002D36B6+1193654]
+	Ordinal0 [0x002D4546+1197382]
+	GetHandleVerifier [0x005B9622+1619522]
+	GetHandleVerifier [0x0066882C+2336844]
+	GetHandleVerifier [0x004B23E1+541697]
+	GetHandleVerifier [0x004B1443+537699]
+	Ordinal0 [0x003BD18E+2150798]
+	Ordinal0 [0x003C1518+2168088]
+	Ordinal0 [0x003C1660+2168416]
+	Ordinal0 [0x003CB330+2208560]
+	BaseThreadInitThunk [0x7581FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A6E+238]
+</msg>
+<status status="FAIL" starttime="20220128 22:50:33.749" endtime="20220128 22:50:46.152"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="malLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:50:46.155" endtime="20220128 22:50:46.155"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="loginUserName"]</arg>
+<arg>ImTestingU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:50:46.157" endtime="20220128 22:50:46.157"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="login-password"]</arg>
+<arg>Te$tingP@$$</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:50:46.157" endtime="20220128 22:50:46.159"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:50:46.159" endtime="20220128 22:50:46.159"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="contentWrapper"]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:50:46.160" endtime="20220128 22:50:46.160"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[13]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220128 22:50:46.162" endtime="20220128 22:50:46.162"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" starttime="20220128 22:50:46.164" endtime="20220128 22:50:46.164"/>
+</kw>
+<status status="FAIL" starttime="20220128 22:50:30.382" endtime="20220128 22:50:46.167">WebDriverException: Message: chrome not reachable
+  (Session info: chrome=97.0.4692.99)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0041FDC3+2555331]
+	Ordinal0 [0x003B77F1+2127857]
+	Ordinal0 [0x002B2CD0+1060048]
+	Ordinal0 [0x002A7BE2+1014754]
+	Ordinal0 [0x002A83E8+1016808]
+	Ordinal0 [0x002A9C02+1022978]
+	Ordinal0 [0x002A3AB9+998073]
+	Ordinal0 [0x002B4040+1065024]
+	Ordinal0 [0x00306DC2+1404354]
+	Ordinal0 [0x002F7976+1341814]
+	Ordinal0 [0x002D36B6+1193654]
+	Ordinal0 [0x002D4546+1197382]
+	GetHandleVerifier [0x005B9622+1619522]
+	GetHandleVerifier [0x0066882C+2336844]
+	GetHandleVerifier [0x004B23E1+541697]
+	GetHandleVerifier [0x004B1443+537699]
+	Ordinal0 [0x003BD18E+2150798]
+	Ordinal0 [0x003C1518+2168088]
+	Ordinal0 [0x003C1660+2168416]
+	Ordinal0 [0x003CB330+2208560]
+	BaseThreadInitThunk [0x7581FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A6E+238]
+</status>
+</test>
+<test id="s1-t13" name="TC_03_013">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220128 22:50:46.184" endtime="20220128 22:50:46.186"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220128 22:50:46.188" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/'.</msg>
+<status status="PASS" starttime="20220128 22:50:46.187" endtime="20220128 22:50:49.212"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:49.213" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220128 22:50:49.212" endtime="20220128 22:50:50.106"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="malLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:50.108" level="INFO">Clicking element '//*[@id="malLogin"]'.</msg>
+<status status="PASS" starttime="20220128 22:50:50.107" endtime="20220128 22:50:51.829"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="loginUserName"]</arg>
+<arg>ImTestingU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:51.830" level="INFO">Typing text 'ImTestingU' into text field '//*[@id="loginUserName"]'.</msg>
+<status status="PASS" starttime="20220128 22:50:51.829" endtime="20220128 22:50:52.872"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="login-password"]</arg>
+<arg>Te$tingP@$$</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:52.875" level="INFO">Typing text 'Te$tingP@$$' into text field '//*[@id="login-password"]'.</msg>
+<status status="PASS" starttime="20220128 22:50:52.874" endtime="20220128 22:50:53.999"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:54.002" level="INFO">Clicking element '//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input'.</msg>
+<status status="PASS" starttime="20220128 22:50:54.001" endtime="20220128 22:50:54.709"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="contentWrapper"]/div[1]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:54.710" level="INFO">Clicking element '//*[@id="contentWrapper"]/div[1]/a'.</msg>
+<status status="PASS" starttime="20220128 22:50:54.709" endtime="20220128 22:50:57.150"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[14]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220128 22:50:57.151" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[14]/a'.</msg>
+<status status="PASS" starttime="20220128 22:50:57.150" endtime="20220128 22:51:00.237"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220128 22:51:00.237" endtime="20220128 22:51:02.591"/>
+</kw>
+<status status="PASS" starttime="20220128 22:50:46.182" endtime="20220128 22:51:02.593"/>
+</test>
+<status status="FAIL" starttime="20220128 22:47:54.576" endtime="20220128 22:51:02.598"/>
+</suite>
+<statistics>
+<total>
+<stat pass="6" fail="7" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="6" fail="7" skip="0" id="s1" name="TS 03">TS 03</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

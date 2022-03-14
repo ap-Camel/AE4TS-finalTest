@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.9.2 on win32)" generated="20220228 23:56:40.108" rpa="false" schemaversion="2">
+<suite id="s1" name="TS 09" source="C:\Users\Ayman\Desktop\AE4TS final\TS_09\TS_09.robot">
+<test id="s1-t1" name="TC_04_001">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220228 23:56:40.279" endtime="20220228 23:56:40.280"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL1}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220228 23:56:40.280" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/'.</msg>
+<status status="PASS" starttime="20220228 23:56:40.280" endtime="20220228 23:56:44.292"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220228 23:56:44.292" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220228 23:56:44.292" endtime="20220228 23:56:45.008"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="malLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220228 23:56:45.009" level="INFO">Clicking element '//*[@id="malLogin"]'.</msg>
+<status status="PASS" starttime="20220228 23:56:45.009" endtime="20220228 23:56:46.319"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="loginUserName"]</arg>
+<arg>ImTestingU</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220228 23:56:46.319" level="INFO">Typing text 'ImTestingU' into text field '//*[@id="loginUserName"]'.</msg>
+<status status="PASS" starttime="20220228 23:56:46.319" endtime="20220228 23:56:47.283"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="login-password"]</arg>
+<arg>Te$tingP@$$</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220228 23:56:47.285" level="INFO">Typing text 'Te$tingP@$$' into text field '//*[@id="login-password"]'.</msg>
+<status status="PASS" starttime="20220228 23:56:47.284" endtime="20220228 23:56:48.255"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220228 23:56:48.255" level="INFO">Clicking element '//*[@id="dialog"]/tbody/tr/td/form/div/p[6]/input'.</msg>
+<status status="PASS" starttime="20220228 23:56:48.255" endtime="20220228 23:56:48.903"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="nav"]/li[7]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220228 23:56:48.904" level="INFO">Clicking element '//*[@id="nav"]/li[7]/a'.</msg>
+<status status="PASS" starttime="20220228 23:56:48.903" endtime="20220228 23:56:51.733"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="nav"]/li[7]/ul/li[7]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220228 23:56:51.733" level="INFO">Clicking element '//*[@id="nav"]/li[7]/ul/li[7]/a'.</msg>
+<status status="PASS" starttime="20220228 23:56:51.733" endtime="20220228 23:56:53.990"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="content"]/div/section[1]/div/div[1]/div/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220228 23:56:53.991" level="INFO">Clicking element '//*[@id="content"]/div/section[1]/div/div[1]/div/a'.</msg>
+<status status="PASS" starttime="20220228 23:56:53.991" endtime="20220228 23:56:56.002"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220228 23:57:00.004" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20220228 23:56:56.003" endtime="20220228 23:57:00.004"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="card-element"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220228 23:57:00.006" level="INFO">Clicking element '//*[@id="card-element"]'.</msg>
+<status status="PASS" starttime="20220228 23:57:00.006" endtime="20220228 23:57:00.660"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="card-element"]/div/iframe</arg>
+<arg>1111111111111111</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220228 23:57:00.661" level="INFO">Typing text '1111111111111111' into text field '//*[@id="card-element"]/div/iframe'.</msg>
+<msg timestamp="20220228 23:57:00.995" level="FAIL">InvalidElementStateException: Message: invalid element state
+  (Session info: chrome=98.0.4758.102)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0105FDC3+2555331]
+	Ordinal0 [0x00FF77F1+2127857]
+	Ordinal0 [0x00EF2CD0+1060048]
+	Ordinal0 [0x00F16CF4+1207540]
+	Ordinal0 [0x00F37B0C+1342220]
+	Ordinal0 [0x00F14984+1198468]
+	Ordinal0 [0x00F37C14+1342484]
+	Ordinal0 [0x00F475FA+1406458]
+	Ordinal0 [0x00F37976+1341814]
+	Ordinal0 [0x00F136B6+1193654]
+	Ordinal0 [0x00F14546+1197382]
+	GetHandleVerifier [0x011F9622+1619522]
+	GetHandleVerifier [0x012A882C+2336844]
+	GetHandleVerifier [0x010F23E1+541697]
+	GetHandleVerifier [0x010F1443+537699]
+	Ordinal0 [0x00FFD18E+2150798]
+	Ordinal0 [0x01001518+2168088]
+	Ordinal0 [0x01001660+2168416]
+	Ordinal0 [0x0100B330+2208560]
+	BaseThreadInitThunk [0x75E2FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77017A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77017A6E+238]
+</msg>
+<status status="FAIL" starttime="20220228 23:57:00.660" endtime="20220228 23:57:00.995"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="content"]/div[3]/section/div[4]/div[1]/div[2]/div/label</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220228 23:57:00.996" endtime="20220228 23:57:00.996"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="content"]/div[3]/section/div[4]/div[1]/div[2]/div/div[2]/input</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20220228 23:57:00.996" endtime="20220228 23:57:00.996"/>
+</kw>
+<status status="FAIL" starttime="20220228 23:56:40.279" endtime="20220228 23:57:00.997">InvalidElementStateException: Message: invalid element state
+  (Session info: chrome=98.0.4758.102)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x0105FDC3+2555331]
+	Ordinal0 [0x00FF77F1+2127857]
+	Ordinal0 [0x00EF2CD0+1060048]
+	Ordinal0 [0x00F16CF4+1207540]
+	Ordinal0 [0x00F37B0C+1342220]
+	Ordinal0 [0x00F14984+1198468]
+	Ordinal0 [0x00F37C14+1342484]
+	Ordinal0 [0x00F475FA+1406458]
+	Ordinal0 [0x00F37976+1341814]
+	Ordinal0 [0x00F136B6+1193654]
+	Ordinal0 [0x00F14546+1197382]
+	GetHandleVerifier [0x011F9622+1619522]
+	GetHandleVerifier [0x012A882C+2336844]
+	GetHandleVerifier [0x010F23E1+541697]
+	GetHandleVerifier [0x010F1443+537699]
+	Ordinal0 [0x00FFD18E+2150798]
+	Ordinal0 [0x01001518+2168088]
+	Ordinal0 [0x01001660+2168416]
+	Ordinal0 [0x0100B330+2208560]
+	BaseThreadInitThunk [0x75E2FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77017A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77017A6E+238]
+</status>
+</test>
+<status status="FAIL" starttime="20220228 23:56:40.109" endtime="20220228 23:57:01.000"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="TS 09">TS 09</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

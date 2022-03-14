@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.9.2 on win32)" generated="20220108 04:15:00.401" rpa="false" schemaversion="2">
+<suite id="s1" name="TS 07" source="C:\Users\Ayman\Desktop\AE4TS final\TS_07\TS_07.robot">
+<test id="s1-t1" name="TC_07_001">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220108 04:15:00.573" endtime="20220108 04:15:00.573"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220108 04:15:00.574" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/anime/45576/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu_Part_2'.</msg>
+<status status="PASS" starttime="20220108 04:15:00.574" endtime="20220108 04:15:03.708"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:15:03.708" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220108 04:15:03.708" endtime="20220108 04:15:04.429"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:15:04.429" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[2]/a'.</msg>
+<status status="PASS" starttime="20220108 04:15:04.429" endtime="20220108 04:15:06.070"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220108 04:15:06.071" endtime="20220108 04:15:08.406"/>
+</kw>
+<status status="PASS" starttime="20220108 04:15:00.572" endtime="20220108 04:15:08.408"/>
+</test>
+<test id="s1-t2" name="TC_07_002">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220108 04:15:08.414" endtime="20220108 04:15:08.415"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220108 04:15:08.416" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/anime/45576/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu_Part_2'.</msg>
+<status status="PASS" starttime="20220108 04:15:08.416" endtime="20220108 04:15:11.614"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:15:11.615" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220108 04:15:11.614" endtime="20220108 04:15:12.347"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[3]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:15:12.348" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[3]/a'.</msg>
+<status status="PASS" starttime="20220108 04:15:12.347" endtime="20220108 04:15:14.531"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220108 04:15:14.531" endtime="20220108 04:15:16.869"/>
+</kw>
+<status status="PASS" starttime="20220108 04:15:08.412" endtime="20220108 04:15:16.870"/>
+</test>
+<test id="s1-t3" name="TC_07_003">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220108 04:15:16.873" endtime="20220108 04:15:16.873"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220108 04:15:16.874" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/anime/45576/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu_Part_2'.</msg>
+<status status="PASS" starttime="20220108 04:15:16.873" endtime="20220108 04:15:20.020"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:15:20.021" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220108 04:15:20.020" endtime="20220108 04:15:20.752"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[4]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:15:20.754" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[4]/a'.</msg>
+<status status="PASS" starttime="20220108 04:15:20.753" endtime="20220108 04:15:22.078"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220108 04:15:22.078" endtime="20220108 04:15:24.412"/>
+</kw>
+<status status="PASS" starttime="20220108 04:15:16.873" endtime="20220108 04:15:24.413"/>
+</test>
+<test id="s1-t4" name="TC_07_004">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220108 04:15:24.417" endtime="20220108 04:15:24.417"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220108 04:15:24.418" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/anime/45576/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu_Part_2'.</msg>
+<status status="PASS" starttime="20220108 04:15:24.417" endtime="20220108 04:15:27.104"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:15:27.104" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220108 04:15:27.104" endtime="20220108 04:15:27.839"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[5]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:15:27.840" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[5]/a'.</msg>
+<status status="PASS" starttime="20220108 04:15:27.840" endtime="20220108 04:15:30.106"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220108 04:15:30.106" endtime="20220108 04:15:32.444"/>
+</kw>
+<status status="PASS" starttime="20220108 04:15:24.417" endtime="20220108 04:15:32.445"/>
+</test>
+<test id="s1-t5" name="TC_07_005">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220108 04:15:32.451" endtime="20220108 04:15:32.452"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220108 04:15:32.452" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/anime/45576/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu_Part_2'.</msg>
+<status status="PASS" starttime="20220108 04:15:32.452" endtime="20220108 04:15:35.733"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:15:35.734" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220108 04:15:35.733" endtime="20220108 04:15:36.473"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[6]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:15:36.473" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[6]/a'.</msg>
+<status status="PASS" starttime="20220108 04:15:36.473" endtime="20220108 04:15:38.420"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220108 04:15:38.420" endtime="20220108 04:15:40.759"/>
+</kw>
+<status status="PASS" starttime="20220108 04:15:32.450" endtime="20220108 04:15:40.760"/>
+</test>
+<test id="s1-t6" name="TC_07_006">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220108 04:15:40.765" endtime="20220108 04:15:40.766"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220108 04:15:40.766" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/anime/45576/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu_Part_2'.</msg>
+<status status="PASS" starttime="20220108 04:15:40.766" endtime="20220108 04:15:43.995"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:15:43.997" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220108 04:15:43.997" endtime="20220108 04:15:44.712"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[7]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:15:44.713" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[7]/a'.</msg>
+<status status="PASS" starttime="20220108 04:15:44.712" endtime="20220108 04:15:46.494"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220108 04:15:46.494" endtime="20220108 04:15:48.828"/>
+</kw>
+<status status="PASS" starttime="20220108 04:15:40.765" endtime="20220108 04:15:48.829"/>
+</test>
+<test id="s1-t7" name="TC_07_007">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220108 04:15:48.836" endtime="20220108 04:15:48.836"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220108 04:15:48.837" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/anime/45576/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu_Part_2'.</msg>
+<status status="PASS" starttime="20220108 04:15:48.837" endtime="20220108 04:15:52.003"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:15:52.005" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220108 04:15:52.005" endtime="20220108 04:15:52.738"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[8]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:15:52.738" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[8]/a'.</msg>
+<status status="PASS" starttime="20220108 04:15:52.738" endtime="20220108 04:15:54.212"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220108 04:15:54.212" endtime="20220108 04:15:57.410"/>
+</kw>
+<status status="PASS" starttime="20220108 04:15:48.834" endtime="20220108 04:15:57.411"/>
+</test>
+<test id="s1-t8" name="TC_07_008">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220108 04:15:57.413" endtime="20220108 04:15:57.413"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220108 04:15:57.414" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/anime/45576/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu_Part_2'.</msg>
+<status status="PASS" starttime="20220108 04:15:57.414" endtime="20220108 04:16:00.543"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:16:00.543" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220108 04:16:00.543" endtime="20220108 04:16:01.261"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[9]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:16:01.262" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[9]/a'.</msg>
+<status status="PASS" starttime="20220108 04:16:01.261" endtime="20220108 04:16:02.668"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220108 04:16:02.668" endtime="20220108 04:16:05.001"/>
+</kw>
+<status status="PASS" starttime="20220108 04:15:57.413" endtime="20220108 04:16:05.003"/>
+</test>
+<test id="s1-t9" name="TC_07_009">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220108 04:16:05.009" endtime="20220108 04:16:05.009"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220108 04:16:05.010" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/anime/45576/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu_Part_2'.</msg>
+<status status="PASS" starttime="20220108 04:16:05.009" endtime="20220108 04:16:19.241"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:16:19.244" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220108 04:16:19.243" endtime="20220108 04:16:19.962"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[10]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:16:19.963" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[10]/a'.</msg>
+<status status="PASS" starttime="20220108 04:16:19.962" endtime="20220108 04:16:21.897"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220108 04:16:21.897" endtime="20220108 04:16:24.228"/>
+</kw>
+<status status="PASS" starttime="20220108 04:16:05.007" endtime="20220108 04:16:24.229"/>
+</test>
+<test id="s1-t10" name="TC_07_010">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>0.3</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20220108 04:16:24.235" endtime="20220108 04:16:24.236"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220108 04:16:24.238" level="INFO">Opening browser 'Chrome' to base url 'https://myanimelist.net/anime/45576/Mushoku_Tensei__Isekai_Ittara_Honki_Dasu_Part_2'.</msg>
+<status status="PASS" starttime="20220108 04:16:24.237" endtime="20220108 04:16:27.388"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:16:27.389" level="INFO">Clicking element '//*[@id="qc-cmp2-ui"]/div[2]/div/button[3]'.</msg>
+<status status="PASS" starttime="20220108 04:16:27.388" endtime="20220108 04:16:28.091"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="horiznav_nav"]/ul/li[11]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220108 04:16:28.092" level="INFO">Clicking element '//*[@id="horiznav_nav"]/ul/li[11]/a'.</msg>
+<status status="PASS" starttime="20220108 04:16:28.091" endtime="20220108 04:16:29.909"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220108 04:16:29.909" endtime="20220108 04:16:32.247"/>
+</kw>
+<status status="PASS" starttime="20220108 04:16:24.234" endtime="20220108 04:16:32.249"/>
+</test>
+<test id="s1-t11" name="Post-conditions">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220108 04:16:32.253" endtime="20220108 04:16:32.253"/>
+</kw>
+<status status="PASS" starttime="20220108 04:16:32.253" endtime="20220108 04:16:32.254"/>
+</test>
+<status status="PASS" starttime="20220108 04:15:00.403" endtime="20220108 04:16:32.255"/>
+</suite>
+<statistics>
+<total>
+<stat pass="11" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="11" fail="0" skip="0" id="s1" name="TS 07">TS 07</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
